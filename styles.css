@@ -1,0 +1,237 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: stretch; 
+    height: 100%; 
+}
+.main { 
+    background-image: url('images/backimage.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    flex: 1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    justify-content: space-between;
+    padding-bottom: 45px;
+
+}
+        /* header css */
+.header{
+    /* background-color: red; */
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    height: 55px;
+    width: 160px;
+    padding: 10px;
+    background-color: rgb(177, 201, 83);
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+img{
+    border-radius: 50%;
+    height: 50px;
+}
+h3{
+    display: inline;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 70px;
+    margin: 0px 20px;
+    background-color: rgb(217, 217, 217);
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 0px 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 0px 15px;
+    max-width: 400px; 
+    background-color: rgb(217, 217, 217);
+    border-radius: 50px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-right: 25px;
+    background-color: rgb(177, 201, 83);
+    height: 65px;
+    width: 170px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+        /* middle css */
+.middle{
+    display: flex;
+    flex-direction: row;
+    max-height: 60%;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: rgb(84, 59, 183,0.4);
+    padding: 35px 10px;
+    margin: 0px 25px;
+    border-radius: 40px;
+    align-items: center;
+    
+
+}
+#menu-labels, #labels{
+    background-color: rgb(148, 95, 103);
+    /* height: 40px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   margin-bottom: 10px;
+    height: 35px;
+    width: 125px;
+    border-radius: 40px;
+    font-weight: 550;
+}
+.video-container {
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 40px;
+    max-width: 70%;
+    
+}
+.details{
+    display: flex;
+    flex-direction: row;
+
+}
+.label-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84, 59, 183,0.4);
+    padding: 35px 10px;
+    margin: 0px 25px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+#labels{
+    background-color: rgb(148, 95, 103);
+    /* height: 40px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   margin-bottom: 10px;
+    height: 35px;
+    width: 125px;
+    border-radius: 40px;
+}
+
+        /* footer css */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.exit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 160px;
+    border-radius: 40px;
+    background-color: hsl(0, 88%, 55%);
+    margin-left: 25px;
+}
+.exit p{
+    font-size: 20px;
+    font-weight: 900;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    padding-left: 30px;
+    margin-right: 40px;
+}
+.video-text, .audio-text{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.video-text p, .audio-text p{
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    background-color: rgb(150, 233, 233);
+    border-radius: 40px;
+}
+#textfield{
+    background-color: rgb(55, 52, 52);
+    flex: 1;
+    height: 40px;
+    margin: 0px 15px;
+    border-radius: 40px;
+    max-width: 410px;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 160px;
+    border-radius: 40px;
+    background-color: hsl(0, 88%, 55%);
+    margin-left: 25px;
+
+}
+.back p{
+    font-size: 20px;
+    font-weight: 900;
+}
